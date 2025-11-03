@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Reading Plan Extractor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>PDF Reading Plan Extractor</h1>
+        <p>Upload your 2025 Bible Reading Schedule PDF to extract daily readings</p>
+        
+        <div class="mb-3">
+            <input type="file" id="pdfFile" class="form-control" accept=".pdf">
+        </div>
+        
+        <button onclick="extractReadings()" class="btn btn-primary">Extract Readings</button>
+        <button onclick="downloadJSON()" class="btn btn-success">Download JSON</button>
+        <button onclick="populateExisting()" class="btn btn-info">Update Existing Plan</button>
+        
+        <div id="progress" class="mt-3"></div>
+        <div id="output" class="mt-4"></div>
+        
+        <div class="mt-4">
+            <h3>Manual Entry Helper</h3>
+            <p>If PDF extraction doesn't work, use this form to manually add readings:</p>
+            <div class="row">
+                <div class="col-md-2">
+                    <input type="text" id="dateCode" class="form-control" placeholder="MMDD (e.g., 0924)">
+                </div>
+                <div class="col-md-2">
+                    <input type="text" id="dayOfWeek" class="form-control" placeholder="Day (e.g., Wednesday)">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="oldTestament" class="form-control" placeholder="Old Testament (e.g., Isaiah 6:1 - 8:22)">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="newTestament" class="form-control" placeholder="New Testament (e.g., 1 Timothy 3)">
+                </div>
+                <div class="col-md-2">
+                    <button onclick="addReading()" class="btn btn-sm btn-secondary">Add</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="manualReadings" class="mt-3"></div>
+    </div>
+
+    <script>
+        let extractedReadings = {};
+        let manualReadings = {};
+
+        async function extractReadings() {
+            const fileInput = document.getElementById('pdfFile');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                alert('Please select a PDF file');
+                return;
+            }
+            
+            const progress = document.getElementById('progress');
+            progress.innerHTML = '<div class="alert alert-info">Processing PDF...</div>';
+            
+            try {
+                const arrayBuffer = await file.arrayBuffer();
+                const pdf = await pdfjsLib.getDocument(arrayBuffer).promise;
+                
+                extractedReadings = {};
+                
+                for (let i = 1; i <= pdf.numPages; i++) {
+                    progress.innerHTML = `<div class="alert alert-info">Processing page ${i} of ${pdf.numPages}...</div>`;
+                    
+                    const page = await pdf.getPage(i);
+                    const textContent = await page.getTextContent();
+                    const text = textContent.items.map(item => item.str).join(' ');
+                    
+                    // Parse text for reading patterns
+                    parseReadingsFromText(text);
+                }
+                
+                displayExtractedReadings();
+                progress.innerHTML = '<div class="alert alert-success">PDF processing complete!</div>';
+                
+            } catch (error) {
+                progress.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+                console.error('PDF processing error:', error);
+            }
+        }
+
+        function parseReadingsFromText(text) {
+            // Common patterns for Bible reading schedules
+            const patterns = [
+                // September 24, Wednesday - Isaiah 6:1-8:22, 1 Timothy 3
+                /(\w+)\s+(\d{1,2}),?\s+(\w+)\s*[-–]\s*([^,]+),\s*(.+?)(?=\w+\s+\d{1,2}|$)/g,
+                // 24 Sep - Isaiah 6:1-8:22 & 1 Timothy 3
+                /(\d{1,2})\s+(\w+)\s*[-–]\s*([^&]+)\s*&\s*(.+?)(?=\d{1,2}\s+\w+|$)/g
+            ];
+            
+            patterns.forEach(pattern => {
+                let match;
+                while ((match = pattern.exec(text)) !== null) {
+                    try {
+                        let month, day, dayOfWeek, oldTest, newTest;
+                        
+                        if (match.length === 6) {
+                            // Pattern 1: September 24, Wednesday - ...
+                            month = match[1];
+                            day = match[2].padStart(2, '0');
+                            dayOfWeek = match[3];
+                            oldTest = match[4].trim();
+                            newTest = match[5].trim();
+                        } else if (match.length === 5) {
+                            // Pattern 2: 24 Sep - ...
+                            day = match[1].padStart(2, '0');
+                            month = match[2];
+                            oldTest = match[3].trim();
+                            newTest = match[4].trim();
+                        }
+                        
+                        if (month && day) {
+                            const monthNum = getMonthNumber(month);
+                            if (monthNum) {
+                                const dateCode = monthNum + day;
+                                extractedReadings[dateCode] = {
+                                    date: `${month} ${parseInt(day)}`,
+                                    dayOfWeek: dayOfWeek || '',
+                                    oldTestament: oldTest,
+                                    newTestament: newTest,
+                                    audio: `${month.toLowerCase()}${day}.mp3`
+                                };
+                            }
+                        }
+                    } catch (e) {
+                        console.log('Parse error:', e);
+                    }
+                }
+            });
+        }
+
+        function getMonthNumber(monthName) {
+            const months = {
+                'january': '01', 'jan': '01',
+                'february': '02', 'feb': '02',
+                'march': '03', 'mar': '03',
+                'april': '04', 'apr': '04',
+                'may': '05',
+                'june': '06', 'jun': '06',
+                'july': '07', 'jul': '07',
+                'august': '08', 'aug': '08',
+                'september': '09', 'sep': '09', 'sept': '09',
+                'october': '10', 'oct': '10',
+                'november': '11', 'nov': '11',
+                'december': '12', 'dec': '12'
+            };
+            return months[monthName.toLowerCase()];
+        }
+
+        function addReading() {
+            const dateCode = document.getElementById('dateCode').value;
+            const dayOfWeek = document.getElementById('dayOfWeek').value;
+            const oldTestament = document.getElementById('oldTestament').value;
+            const newTestament = document.getElementById('newTestament').value;
+            
+            if (!dateCode || !oldTestament || !newTestament) {
+                alert('Please fill in all required fields');
+                return;
+            }
+            
+            const month = dateCode.substring(0, 2);
+            const day = dateCode.substring(2, 4);
+            const monthNames = ['', 'January', 'February', 'March', 'April', 'May', 'June',
+                              'July', 'August', 'September', 'October', 'November', 'December'];
+            
+            manualReadings[dateCode] = {
+                date: `${monthNames[parseInt(month)]} ${parseInt(day)}`,
+                dayOfWeek: dayOfWeek,
+                oldTestament: oldTestament,
+                newTestament: newTestament,
+                audio: `${monthNames[parseInt(month)].toLowerCase()}${day}.mp3`
+            };
+            
+            // Clear form
+            document.getElementById('dateCode').value = '';
+            document.getElementById('dayOfWeek').value = '';
+            document.getElementById('oldTestament').value = '';
+            document.getElementById('newTestament').value = '';
+            
+            displayManualReadings();
+        }
+
+        function displayExtractedReadings() {
+            const output = document.getElementById('output');
+            const count = Object.keys(extractedReadings).length;
+            
+            if (count === 0) {
+                output.innerHTML = '<div class="alert alert-warning">No readings found. Try manual entry.</div>';
+                return;
+            }
+            
+            let html = `<h4>Extracted ${count} Readings:</h4><div class="table-responsive"><table class="table table-sm">
+                       <thead><tr><th>Date</th><th>Day</th><th>Old Testament</th><th>New Testament</th></tr></thead><tbody>`;
+            
+            Object.entries(extractedReadings).forEach(([code, reading]) => {
+                html += `<tr><td>${code}</td><td>${reading.dayOfWeek}</td><td>${reading.oldTestament}</td><td>${reading.newTestament}</td></tr>`;
+            });
+            
+            html += '</tbody></table></div>';
+            output.innerHTML = html;
+        }
+
+        function displayManualReadings() {
+            const container = document.getElementById('manualReadings');
+            const count = Object.keys(manualReadings).length;
+            
+            if (count === 0) {
+                container.innerHTML = '';
+                return;
+            }
+            
+            let html = `<h5>Manual Entries (${count}):</h5><div class="table-responsive"><table class="table table-sm">
+                       <thead><tr><th>Date</th><th>Day</th><th>Old Testament</th><th>New Testament</th></tr></thead><tbody>`;
+            
+            Object.entries(manualReadings).forEach(([code, reading]) => {
+                html += `<tr><td>${code}</td><td>${reading.dayOfWeek}</td><td>${reading.oldTestament}</td><td>${reading.newTestament}</td></tr>`;
+            });
+            
+            html += '</tbody></table></div>';
+            container.innerHTML = html;
+        }
+
+        function downloadJSON() {
+            const allReadings = {...extractedReadings, ...manualReadings};
+            
+            if (Object.keys(allReadings).length === 0) {
+                alert('No readings to download');
+                return;
+            }
+            
+            const blob = new Blob([JSON.stringify(allReadings, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'reading-plan-2025.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function populateExisting() {
+            const allReadings = {...extractedReadings, ...manualReadings};
+            
+            if (Object.keys(allReadings).length === 0) {
+                alert('No readings to populate');
+                return;
+            }
+            
+            // Load existing reading plan and merge
+            fetch('assets/data/reading-plan.json')
+                .then(response => response.json())
+                .then(existingPlan => {
+                    const mergedPlan = {...existingPlan, ...allReadings};
+                    
+                    const blob = new Blob([JSON.stringify(mergedPlan, null, 2)], {type: 'application/json'});
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'reading-plan-updated.json';
+                    a.click();
+                    URL.revokeObjectURL(url);
+                })
+                .catch(error => {
+                    console.error('Error loading existing plan:', error);
+                    downloadJSON(); // Fallback to just download new readings
+                });
+        }
+    </script>
+</body>
+</html>

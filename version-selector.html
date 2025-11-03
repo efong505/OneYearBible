@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Version Selector</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>One Year Bible Reading</h1>
+        <p>Choose your preferred Bible version:</p>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">King James Version (KJV)</h5>
+                        <p class="card-text">Traditional English translation</p>
+                        <a href="readings/september/0922.html?version=kjv" class="btn btn-primary">Read KJV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">New King James Version (NKJV)</h5>
+                        <p class="card-text">Modern English translation</p>
+                        <a href="readings/september/0922.html?version=nkjv" class="btn btn-success">Read NKJV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-4">
+            <h3>Generate Reading Page</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <select id="versionSelect" class="form-select">
+                        <option value="kjv">KJV</option>
+                        <option value="nkjv">NKJV</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" id="dateCode" class="form-control" placeholder="Date code (e.g., 0922)">
+                </div>
+                <div class="col-md-4">
+                    <button onclick="generatePage()" class="btn btn-info">Generate Page</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="output" class="mt-4"></div>
+    </div>
+
+    <script src="assets/js/bible-generator.js"></script>
+    <script>
+        async function generatePage() {
+            const version = document.getElementById('versionSelect').value;
+            const dateCode = document.getElementById('dateCode').value;
+            
+            if (!dateCode) {
+                alert('Please enter a date code');
+                return;
+            }
+            
+            try {
+                const generator = new BibleGenerator(version);
+                await generator.loadData('assets/data/');
+                
+                const pageHtml = generator.generatePage(dateCode);
+                if (pageHtml) {
+                    document.getElementById('output').innerHTML = 
+                        `<h4>Generated ${version.toUpperCase()} Page for ${dateCode}:</h4>
+                         <textarea class="form-control" rows="10">${pageHtml}</textarea>`;
+                } else {
+                    document.getElementById('output').innerHTML = 
+                        `<div class="alert alert-warning">No reading found for date code: ${dateCode}</div>`;
+                }
+            } catch (error) {
+                document.getElementById('output').innerHTML = 
+                    `<div class="alert alert-danger">Error: ${error.message}</div>`;
+                console.error('Error generating page:', error);
+            }
+        }
+    </script>
+</body>
+</html>

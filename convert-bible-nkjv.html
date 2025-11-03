@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NKJV Bible Converter</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .upload-area { border: 2px dashed #ccc; padding: 20px; text-align: center; margin: 20px 0; }
+        .file-list { margin: 10px 0; }
+        .file-item { padding: 5px; background: #f0f0f0; margin: 2px 0; }
+        button { padding: 10px 20px; margin: 5px; }
+        .output { background: #f9f9f9; padding: 15px; margin: 20px 0; white-space: pre-wrap; font-family: monospace; }
+        .progress { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>NKJV Bible Converter</h1>
+    <p>Upload NKJV Bible JSON files to convert and merge into project format.</p>
+    
+    <div class="upload-area">
+        <input type="file" id="fileInput" multiple accept=".json" />
+        <p>Select multiple JSON files</p>
+    </div>
+    
+    <div class="file-list" id="fileList"></div>
+    
+    <button onclick="convertFiles()">Convert & Merge</button>
+    <button onclick="downloadResult()">Download Result</button>
+    <button onclick="clearAll()">Clear All</button>
+    
+    <div class="progress" id="progress"></div>
+    <div class="output" id="output"></div>
+
+    <script>
+        let uploadedFiles = [];
+        let convertedBible = {};
+
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            uploadedFiles = Array.from(e.target.files);
+            displayFileList();
+        });
+
+        function displayFileList() {
+            const fileList = document.getElementById('fileList');
+            fileList.innerHTML = uploadedFiles.map(file => 
+                `<div class="file-item">${file.name} (${(file.size/1024).toFixed(1)} KB)</div>`
+            ).join('');
+        }
+
+        async function convertFiles() {
+            if (uploadedFiles.length === 0) {
+                alert('Please select files first');
+                return;
+            }
+
+            const progress = document.getElementById('progress');
+            const output = document.getElementById('output');
+            convertedBible = {};
+            
+            progress.textContent = 'Converting files...';
+            
+            for (let i = 0; i < uploadedFiles.length; i++) {
+                const file = uploadedFiles[i];
+                progress.textContent = `Processing ${file.name} (${i + 1}/${uploadedFiles.length})`;
+                
+                try {
+                    const text = await file.text();
+                    const data = JSON.parse(text);
+                    
+                    // Convert NKJV format to project format
+                    let bookName = data.name;
+                    
+                    // Normalize book names to match KJV format
+                    if (bookName === 'Psalm') {
+                        bookName = 'Psalms';
+                    }
+                    
+                    convertedBible[bookName] = {};
+                    
+                    data.chapters.forEach((chapter, chapterIndex) => {
+                        const chapterNum = (chapterIndex + 1).toString();
+                        convertedBible[bookName][chapterNum] = {};
+                        
+                        chapter.verses.forEach(verse => {
+                            convertedBible[bookName][chapterNum][verse.num.toString()] = verse.text;
+                        });
+                    });
+                    
+                } catch (error) {
+                    output.textContent += `Error processing ${file.name}: ${error.message}\n`;
+                }
+            }
+            
+            progress.textContent = `Conversion complete! ${Object.keys(convertedBible).length} books processed.`;
+            output.textContent = `Converted Bible structure:\n${JSON.stringify(convertedBible, null, 2).substring(0, 1000)}...`;
+        }
+
+        function downloadResult() {
+            if (Object.keys(convertedBible).length === 0) {
+                alert('No converted data to download');
+                return;
+            }
+            
+            const blob = new Blob([JSON.stringify(convertedBible, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'bible-nkjv.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function clearAll() {
+            uploadedFiles = [];
+            convertedBible = {};
+            document.getElementById('fileInput').value = '';
+            document.getElementById('fileList').innerHTML = '';
+            document.getElementById('progress').textContent = '';
+            document.getElementById('output').textContent = '';
+        }
+    </script>
+</body>
+</html>

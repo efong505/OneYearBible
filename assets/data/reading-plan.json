@@ -1,0 +1,2557 @@
+{
+  "1001": {
+    "date": "October 1",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Isa. 26-28",
+    "newTestament": "1 Tim. 6",
+    "audio": "oct01.mp3"
+  },
+  "1002": {
+    "date": "October 2",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Isa. 29-31",
+    "newTestament": "2 Tim. 1",
+    "audio": "oct02.mp3"
+  },
+  "1003": {
+    "date": "October 3",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Isa. 32-34",
+    "newTestament": "2 Tim. 2",
+    "audio": "oct03.mp3"
+  },
+  "1004": {
+    "date": "October 4",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Isa. 35:1-37:32",
+    "newTestament": "",
+    "audio": "oct04.mp3"
+  },
+  "1005": {
+    "date": "October 5",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 110-114",
+    "newTestament": "Prov. 24:23-34",
+    "audio": "oct05.mp3"
+  },
+  "1006": {
+    "date": "October 6",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Isa. 37:33-40:26",
+    "newTestament": "2 Tim. 3",
+    "audio": "oct06.mp3"
+  },
+  "1007": {
+    "date": "October 7",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Isa. 40:27-43:7",
+    "newTestament": "2 Tim. 4",
+    "audio": "oct07.mp3"
+  },
+  "1008": {
+    "date": "October 8",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Isa. 43:8-45:13",
+    "newTestament": "Titus 1",
+    "audio": "oct08.mp3"
+  },
+  "1009": {
+    "date": "October 9",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Isa. 45:14-48:22",
+    "newTestament": "Titus 2",
+    "audio": "oct09.mp3"
+  },
+  "1010": {
+    "date": "October 10",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Isa. 49-51",
+    "newTestament": "Titus 3",
+    "audio": "oct10.mp3"
+  },
+  "1011": {
+    "date": "October 11",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Isa. 52:1-56:8",
+    "newTestament": "",
+    "audio": "oct11.mp3"
+  },
+  "1012": {
+    "date": "October 12",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 115-118",
+    "newTestament": "Prov. 25:1-20",
+    "audio": "oct12.mp3"
+  },
+  "1013": {
+    "date": "October 13",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Isa. 56:9-59:21",
+    "newTestament": "Philem.",
+    "audio": "oct13.mp3"
+  },
+  "1014": {
+    "date": "October 14",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Isa. 60-63",
+    "newTestament": "Heb. 1",
+    "audio": "oct14.mp3"
+  },
+  "1015": {
+    "date": "October 15",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Isa. 64-66",
+    "newTestament": "Heb. 2",
+    "audio": "oct15.mp3"
+  },
+  "1016": {
+    "date": "October 16",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jer. 1:1-3:5",
+    "newTestament": "Heb. 3",
+    "audio": "oct16.mp3"
+  },
+  "1017": {
+    "date": "October 17",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Jer. 3:6-5:13",
+    "newTestament": "Heb. 4",
+    "audio": "oct17.mp3"
+  },
+  "1018": {
+    "date": "October 18",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Jer. 5:14-7:15",
+    "newTestament": "",
+    "audio": "oct18.mp3"
+  },
+  "1019": {
+    "date": "October 19",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 119:1-48",
+    "newTestament": "Prov. 25:21-26:12",
+    "audio": "oct19.mp3"
+  },
+  "1020": {
+    "date": "October 20",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Jer. 7:16-9:26",
+    "newTestament": "Heb. 5",
+    "audio": "oct20.mp3"
+  },
+  "1021": {
+    "date": "October 21",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jer. 10-12",
+    "newTestament": "Heb. 6",
+    "audio": "oct21.mp3"
+  },
+  "1022": {
+    "date": "October 22",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Jer. 13:1-15:9",
+    "newTestament": "Heb. 7",
+    "audio": "oct22.mp3"
+  },
+  "1023": {
+    "date": "October 23",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jer. 15:10-17:27",
+    "newTestament": "Heb. 8",
+    "audio": "oct23.mp3"
+  },
+  "1024": {
+    "date": "October 24",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Jer. 18:1-21:10",
+    "newTestament": "Heb. 9",
+    "audio": "oct24.mp3"
+  },
+  "1025": {
+    "date": "October 25",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Jer. 21:11-23:29",
+    "newTestament": "",
+    "audio": "oct25.mp3"
+  },
+  "1026": {
+    "date": "October 26",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 119:49-88",
+    "newTestament": "Prov. 26:13-28",
+    "audio": "oct26.mp3"
+  },
+  "1027": {
+    "date": "October 27",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Jer. 23:30-26:6",
+    "newTestament": "Heb. 10",
+    "audio": "oct27.mp3"
+  },
+  "1028": {
+    "date": "October 28",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jer. 26:7-28:17",
+    "newTestament": "Heb. 11",
+    "audio": "oct28.mp3"
+  },
+  "1029": {
+    "date": "October 29",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Jer. 29:1-31:9",
+    "newTestament": "Heb. 12",
+    "audio": "oct29.mp3"
+  },
+  "1030": {
+    "date": "October 30",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jer. 31:10-32:44",
+    "newTestament": "Heb. 13",
+    "audio": "oct30.mp3"
+  },
+  "1031": {
+    "date": "October 31",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Jer. 33-35",
+    "newTestament": "Jas. 1",
+    "audio": "oct31.mp3"
+  },
+  "1101": {
+    "date": "November 1",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Jer. 36:1-38:13",
+    "newTestament": "",
+    "audio": "nov01.mp3"
+  },
+  "1102": {
+    "date": "November 2",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 119: 89-136",
+    "newTestament": "Prov. 27:1-22",
+    "audio": "nov02.mp3"
+  },
+  "1103": {
+    "date": "November 3",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Jer. 38:14-41:18",
+    "newTestament": "Jas. 2",
+    "audio": "nov03.mp3"
+  },
+  "1104": {
+    "date": "November 4",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jer. 42-44",
+    "newTestament": "Jas. 3",
+    "audio": "nov04.mp3"
+  },
+  "1105": {
+    "date": "November 5",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Jer. 45:1-48:25",
+    "newTestament": "Jas. 4",
+    "audio": "nov05.mp3"
+  },
+  "1106": {
+    "date": "November 6",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jer. 48:26-49:39",
+    "newTestament": "Jas. 5",
+    "audio": "nov06.mp3"
+  },
+  "1107": {
+    "date": "November 7",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Jer. 50:1-51:19",
+    "newTestament": "1 Pet. 1",
+    "audio": "nov07.mp3"
+  },
+  "1108": {
+    "date": "November 8",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Jer. 51:20-52:23",
+    "newTestament": "",
+    "audio": "nov08.mp3"
+  },
+  "1109": {
+    "date": "November 9",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 119:137-176",
+    "newTestament": "Prov. 27: 23-28:14",
+    "audio": "nov09.mp3"
+  },
+  "1110": {
+    "date": "November 10",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Jer. 52:24- Lam. 2:22",
+    "newTestament": "1 Pet. 2",
+    "audio": "nov10.mp3"
+  },
+  "1111": {
+    "date": "November 11",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Lam. 3",
+    "newTestament": "1 Pet. 3",
+    "audio": "nov11.mp3"
+  },
+  "1112": {
+    "date": "November 12",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Lam. 4:1-Ezek. 1:21",
+    "newTestament": "1 Pet. 4",
+    "audio": "nov12.mp3"
+  },
+  "1113": {
+    "date": "November 13",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezek. 1:22-4:17",
+    "newTestament": "1 Pet. 5",
+    "audio": "nov13.mp3"
+  },
+  "1114": {
+    "date": "November 14",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Ezek. 5-7",
+    "newTestament": "2 Pet. 1",
+    "audio": "nov14.mp3"
+  },
+  "1115": {
+    "date": "November 15",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Ezek. 8:1-11:13",
+    "newTestament": "",
+    "audio": "nov15.mp3"
+  },
+  "1116": {
+    "date": "November 16",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 120-126",
+    "newTestament": "Prov. 28:15-28",
+    "audio": "nov16.mp3"
+  },
+  "1117": {
+    "date": "November 17",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Ezek. 11:14-13:23",
+    "newTestament": "2 Pet. 2",
+    "audio": "nov17.mp3"
+  },
+  "1118": {
+    "date": "November 18",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezek. 14:1-16:34",
+    "newTestament": "2 Pet. 3",
+    "audio": "nov18.mp3"
+  },
+  "1119": {
+    "date": "November 19",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Ezek. 16:35-18:9",
+    "newTestament": "1 Jn. 1",
+    "audio": "nov19.mp3"
+  },
+  "1120": {
+    "date": "November 20",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezek. 18:10-20:32",
+    "newTestament": "1 Jn. 2",
+    "audio": "nov20.mp3"
+  },
+  "1121": {
+    "date": "November 21",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Ezek. 20:33-22:16",
+    "newTestament": "1 Jn. 3",
+    "audio": "nov21.mp3"
+  },
+  "1122": {
+    "date": "November 22",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Ezek. 22:17-23:49",
+    "newTestament": "",
+    "audio": "nov22.mp3"
+  },
+  "1123": {
+    "date": "November 23",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 127-132",
+    "newTestament": "Prov. 29:1-14",
+    "audio": "nov23.mp3"
+  },
+  "1124": {
+    "date": "November 24",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Ezek. 24-26",
+    "newTestament": "1 Jn. 4",
+    "audio": "nov24.mp3"
+  },
+  "1125": {
+    "date": "November 25",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezek. 27-28",
+    "newTestament": "1 Jn. 5",
+    "audio": "nov25.mp3"
+  },
+  "1126": {
+    "date": "November 26",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Ezek. 29-31",
+    "newTestament": "2 Jn.",
+    "audio": "nov26.mp3"
+  },
+  "1127": {
+    "date": "November 27",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezek. 32-33",
+    "newTestament": "3 Jn.",
+    "audio": "nov27.mp3"
+  },
+  "1128": {
+    "date": "November 28",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Ezek. 34:1-36:15",
+    "newTestament": "Jude",
+    "audio": "nov28.mp3"
+  },
+  "1129": {
+    "date": "November 29",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Ezek. 36:16-38:17",
+    "newTestament": "",
+    "audio": "nov29.mp3"
+  },
+  "1130": {
+    "date": "November 30",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 133-136",
+    "newTestament": "Prov. 29:15-27",
+    "audio": "nov30.mp3"
+  },
+  "1201": {
+    "date": "December 1",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Ezek. 38:18-40:27",
+    "newTestament": "Rev. 1",
+    "audio": "dec01.mp3"
+  },
+  "1202": {
+    "date": "December 2",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezek. 40:28-42:14",
+    "newTestament": "Rev. 2",
+    "audio": "dec02.mp3"
+  },
+  "1203": {
+    "date": "December 3",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Ezek. 42:15-44:31",
+    "newTestament": "Rev. 3",
+    "audio": "dec03.mp3"
+  },
+  "1204": {
+    "date": "December 4",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezek. 45:1-47:12",
+    "newTestament": "Rev. 4",
+    "audio": "dec04.mp3"
+  },
+  "1205": {
+    "date": "December 5",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Ezek. 47:13-48:35",
+    "newTestament": "Dan. 1",
+    "audio": "dec05.mp3"
+  },
+  "1206": {
+    "date": "December 6",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Dan. 2:1-3:18",
+    "newTestament": "",
+    "audio": "dec06.mp3"
+  },
+  "1207": {
+    "date": "December 7",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 137-139",
+    "newTestament": "Prov. 30:1-17",
+    "audio": "dec07.mp3"
+  },
+  "1208": {
+    "date": "December 8",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Dan. 3:19-5:12",
+    "newTestament": "Rev. 6",
+    "audio": "dec08.mp3"
+  },
+  "1209": {
+    "date": "December 9",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Dan. 5:13-7:14",
+    "newTestament": "Rev. 7",
+    "audio": "dec09.mp3"
+  },
+  "1210": {
+    "date": "December 10",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Dan. 7:15-9:27",
+    "newTestament": "Rev. 8",
+    "audio": "dec10.mp3"
+  },
+  "1211": {
+    "date": "December 11",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Dan. 10-11",
+    "newTestament": "Rev. 9",
+    "audio": "dec11.mp3"
+  },
+  "1212": {
+    "date": "December 12",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Dan. 12",
+    "newTestament": "Hos. 1:1-4:10",
+    "audio": "dec12.mp3"
+  },
+  "1213": {
+    "date": "December 13",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Hos. 4:11-8:14",
+    "newTestament": "",
+    "audio": "dec13.mp3"
+  },
+  "1214": {
+    "date": "December 14",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 140-141",
+    "newTestament": "Prov. 30:18-33",
+    "audio": "dec14.mp3"
+  },
+  "1215": {
+    "date": "December 15",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Hos. 9-12",
+    "newTestament": "Rev. 11",
+    "audio": "dec15.mp3"
+  },
+  "1216": {
+    "date": "December 16",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Hos. 13-14",
+    "newTestament": "Joel 1:1-2:17",
+    "audio": "dec16.mp3"
+  },
+  "1217": {
+    "date": "December 17",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Joel 2:18-3:21",
+    "newTestament": "Amos 1-2",
+    "audio": "dec17.mp3"
+  },
+  "1218": {
+    "date": "December 18",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Amos 3-6",
+    "newTestament": "Rev. 14",
+    "audio": "dec18.mp3"
+  },
+  "1219": {
+    "date": "December 19",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Amos 7-9",
+    "newTestament": "Obad. 1",
+    "audio": "dec19.mp3"
+  },
+  "1220": {
+    "date": "December 20",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Jon. 1-4",
+    "newTestament": "",
+    "audio": "dec20.mp3"
+  },
+  "1221": {
+    "date": "December 21",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 142-145",
+    "newTestament": "",
+    "audio": "dec21.mp3"
+  },
+  "1222": {
+    "date": "December 22",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Mic. 1:1-5:9",
+    "newTestament": "Rev. 16",
+    "audio": "dec22.mp3"
+  },
+  "1223": {
+    "date": "December 23",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Mic. 5:10-7:20",
+    "newTestament": "Nah. 1",
+    "audio": "dec23.mp3"
+  },
+  "1224": {
+    "date": "December 24",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Nah. 2-3",
+    "newTestament": "Hab. 1:1-2:11",
+    "audio": "dec24.mp3"
+  },
+  "1225": {
+    "date": "December 25",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Hab. 2:12-3:19",
+    "newTestament": "Zeph. 1-2",
+    "audio": "dec25.mp3"
+  },
+  "1226": {
+    "date": "December 26",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Zeph. 3",
+    "newTestament": "Hag. 1-2",
+    "audio": "dec26.mp3"
+  },
+  "1227": {
+    "date": "December 27",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Zech. 1-5",
+    "newTestament": "",
+    "audio": "dec27.mp3"
+  },
+  "1228": {
+    "date": "December 28",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 146-147",
+    "newTestament": "Prov. 31",
+    "audio": "dec28.mp3"
+  },
+  "1229": {
+    "date": "December 29",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Zech. 6-9",
+    "newTestament": "Rev. 21",
+    "audio": "dec29.mp3"
+  },
+  "1230": {
+    "date": "December 30",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Zech. 10:1-14:15",
+    "newTestament": "Rev. 22",
+    "audio": "dec30.mp3"
+  },
+  "1231": {
+    "date": "December 31",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Zech. 14:16-21",
+    "newTestament": "Mal. 1-4",
+    "audio": "dec31.mp3"
+  },
+  "0918": {
+    "date": "September 18",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Eccl. 7:13-10:7",
+    "newTestament": "1 Thess. 5",
+    "audio": "sep18.mp3"
+  },
+  "0919": {
+    "date": "September 19",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Eccl. 10:8- Songs 2:7",
+    "newTestament": "2 Thess. 1",
+    "audio": "sep19.mp3"
+  },
+  "0920": {
+    "date": "September 20",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Songs 2:8-6:10",
+    "newTestament": "",
+    "audio": "sep20.mp3"
+  },
+  "0921": {
+    "date": "September 21",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 107",
+    "newTestament": "Prov. 23:1-28",
+    "audio": "sep21.mp3"
+  },
+  "0922": {
+    "date": "September 22",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Songs 6:11- Isa. 1:31",
+    "newTestament": "2 Thess. 2",
+    "audio": "sep22.mp3"
+  },
+  "0923": {
+    "date": "September 23",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Isa. 2:1-5:7",
+    "newTestament": "2 Thess. 3",
+    "audio": "sep23.mp3"
+  },
+  "0924": {
+    "date": "September 24",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Isa. 5:8-7:25",
+    "newTestament": "1 Tim. 1",
+    "audio": "sep24.mp3"
+  },
+  "0925": {
+    "date": "September 25",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Isa. 8:1-10:19",
+    "newTestament": "1 Tim. 2",
+    "audio": "sep25.mp3"
+  },
+  "0926": {
+    "date": "September 26",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Isa. 10:20-13:22",
+    "newTestament": "1 Tim. 3",
+    "audio": "sep26.mp3"
+  },
+  "0927": {
+    "date": "September 27",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Isa. 14-17",
+    "newTestament": "",
+    "audio": "sep27.mp3"
+  },
+  "0928": {
+    "date": "September 28",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 108-109",
+    "newTestament": "Prov. 23:29-24:22",
+    "audio": "sep28.mp3"
+  },
+  "0929": {
+    "date": "September 29",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Isa. 18:1-22:14",
+    "newTestament": "1 Tim. 4",
+    "audio": "sep29.mp3"
+  },
+  "0930": {
+    "date": "September 30",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Isa. 22:15-25:12",
+    "newTestament": "1 Tim. 5",
+    "audio": "sep30.mp3"
+  },
+  "0101": {
+    "date": "January 1",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Gen. 1:1-3:7",
+    "newTestament": "Matt. 1",
+    "audio": "jan01.mp3"
+  },
+  "0102": {
+    "date": "January 2",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Gen. 3:8-5:20",
+    "newTestament": "Matt. 2",
+    "audio": "jan02.mp3"
+  },
+  "0103": {
+    "date": "January 3",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Gen. 5:21-8:5",
+    "newTestament": "Matt. 3",
+    "audio": "jan03.mp3"
+  },
+  "0104": {
+    "date": "January 4",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Gen. 8:6-10:19",
+    "newTestament": "",
+    "audio": "jan04.mp3"
+  },
+  "0105": {
+    "date": "January 5",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 1-5",
+    "newTestament": "Prov. 1:1-19",
+    "audio": "jan05.mp3"
+  },
+  "0106": {
+    "date": "January 6",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Gen. 10:20-12:20",
+    "newTestament": "Matt. 4",
+    "audio": "jan06.mp3"
+  },
+  "0107": {
+    "date": "January 7",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Gen. 13-15",
+    "newTestament": "Matt. 5",
+    "audio": "jan07.mp3"
+  },
+  "0108": {
+    "date": "January 8",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Gen. 16:1-18:21",
+    "newTestament": "Matt. 6",
+    "audio": "jan08.mp3"
+  },
+  "0109": {
+    "date": "January 9",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Gen. 18:22-20:13",
+    "newTestament": "Matt. 7",
+    "audio": "jan09.mp3"
+  },
+  "0110": {
+    "date": "January 10",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Gen. 20:14-22:24",
+    "newTestament": "Matt. 8",
+    "audio": "jan10.mp3"
+  },
+  "0111": {
+    "date": "January 11",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Gen. 23:1-24:49",
+    "newTestament": "",
+    "audio": "jan11.mp3"
+  },
+  "0112": {
+    "date": "January 12",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 6-9",
+    "newTestament": "Prov. 1:20-33",
+    "audio": "jan12.mp3"
+  },
+  "0113": {
+    "date": "January 13",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Gen. 24:50-26:11",
+    "newTestament": "Matt. 9",
+    "audio": "jan13.mp3"
+  },
+  "0114": {
+    "date": "January 14",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Gen. 26:12-27:40",
+    "newTestament": "Matt. 10",
+    "audio": "jan14.mp3"
+  },
+  "0115": {
+    "date": "January 15",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Gen. 27:41-29:35",
+    "newTestament": "Matt. 11",
+    "audio": "jan15.mp3"
+  },
+  "0116": {
+    "date": "January 16",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Gen. 30:1-31:21",
+    "newTestament": "Matt. 12",
+    "audio": "jan16.mp3"
+  },
+  "0117": {
+    "date": "January 17",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Gen. 31:22-32:32",
+    "newTestament": "Matt. 13",
+    "audio": "jan17.mp3"
+  },
+  "0118": {
+    "date": "January 18",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Gen. 33:1-35:8",
+    "newTestament": "",
+    "audio": "jan18.mp3"
+  },
+  "0119": {
+    "date": "January 19",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 10-13",
+    "newTestament": "Prov. 2",
+    "audio": "jan19.mp3"
+  },
+  "0120": {
+    "date": "January 20",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Gen. 35:9-36:43",
+    "newTestament": "Matt. 14",
+    "audio": "jan20.mp3"
+  },
+  "0121": {
+    "date": "January 21",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Gen. 37-38",
+    "newTestament": "Matt. 15",
+    "audio": "jan21.mp3"
+  },
+  "0122": {
+    "date": "January 22",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Gen. 39:1-41:13",
+    "newTestament": "Matt. 16",
+    "audio": "jan22.mp3"
+  },
+  "0123": {
+    "date": "January 23",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Gen. 41:14-42:24",
+    "newTestament": "Matt. 17",
+    "audio": "jan23.mp3"
+  },
+  "0124": {
+    "date": "January 24",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Gen. 42:25-44:17",
+    "newTestament": "Matt. 18",
+    "audio": "jan24.mp3"
+  },
+  "0125": {
+    "date": "January 25",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Gen. 44:18-48:16",
+    "newTestament": "",
+    "audio": "jan25.mp3"
+  },
+  "0126": {
+    "date": "January 26",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 14-17",
+    "newTestament": "Prov. 3:1-18",
+    "audio": "jan26.mp3"
+  },
+  "0127": {
+    "date": "January 27",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Gen. 48:17-50:26",
+    "newTestament": "Matt. 19",
+    "audio": "jan27.mp3"
+  },
+  "0128": {
+    "date": "January 28",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ex. 1:1-3:12",
+    "newTestament": "Matt. 20",
+    "audio": "jan28.mp3"
+  },
+  "0129": {
+    "date": "January 29",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Ex. 3:13-5:21",
+    "newTestament": "Matt. 21",
+    "audio": "jan29.mp3"
+  },
+  "0130": {
+    "date": "January 30",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ex. 5:22-7:25",
+    "newTestament": "Matt. 22",
+    "audio": "jan30.mp3"
+  },
+  "0131": {
+    "date": "January 31",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Ex. 8-9",
+    "newTestament": "Matt. 23",
+    "audio": "jan31.mp3"
+  },
+  "0201": {
+    "date": "February 1",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ex. 10:1-12:28",
+    "newTestament": "",
+    "audio": "feb01.mp3"
+  },
+  "0202": {
+    "date": "February 2",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 18",
+    "newTestament": "Prov. 3:19-35",
+    "audio": "feb02.mp3"
+  },
+  "0203": {
+    "date": "February 3",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Ex. 12:29-14:14",
+    "newTestament": "Matt. 24",
+    "audio": "feb03.mp3"
+  },
+  "0204": {
+    "date": "February 4",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ex. 14:15-16:21",
+    "newTestament": "Matt. 25",
+    "audio": "feb04.mp3"
+  },
+  "0205": {
+    "date": "February 5",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Ex. 16:22-18:27",
+    "newTestament": "Matt. 26",
+    "audio": "feb05.mp3"
+  },
+  "0206": {
+    "date": "February 6",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ex. 19:1-21:11",
+    "newTestament": "Matt. 27",
+    "audio": "feb06.mp3"
+  },
+  "0207": {
+    "date": "February 7",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Ex. 21:12-23:9",
+    "newTestament": "Matt. 28",
+    "audio": "feb07.mp3"
+  },
+  "0208": {
+    "date": "February 8",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Ex. 23:10-25:22",
+    "newTestament": "",
+    "audio": "feb08.mp3"
+  },
+  "0209": {
+    "date": "February 9",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 19-21",
+    "newTestament": "Prov. 4:1-19",
+    "audio": "feb09.mp3"
+  },
+  "0210": {
+    "date": "February 10",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Ex. 25:23-27:8",
+    "newTestament": "Mark 1",
+    "audio": "feb10.mp3"
+  },
+  "0211": {
+    "date": "February 11",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ex. 27:9-29:9",
+    "newTestament": "Mark 2",
+    "audio": "feb11.mp3"
+  },
+  "0212": {
+    "date": "February 12",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Ex. 29:10-30:21",
+    "newTestament": "Mark 3",
+    "audio": "feb12.mp3"
+  },
+  "0213": {
+    "date": "February 13",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ex. 30:22-32:29",
+    "newTestament": "Mark 4",
+    "audio": "feb13.mp3"
+  },
+  "0214": {
+    "date": "February 14",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Ex. 32:30-34:35",
+    "newTestament": "Mark 5",
+    "audio": "feb14.mp3"
+  },
+  "0215": {
+    "date": "February 15",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Ex. 35:1-36:30",
+    "newTestament": "",
+    "audio": "feb15.mp3"
+  },
+  "0216": {
+    "date": "February 16",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 22-24",
+    "newTestament": "Prov. 4:20-5:14",
+    "audio": "feb16.mp3"
+  },
+  "0217": {
+    "date": "February 17",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Ex. 36:31-38:20",
+    "newTestament": "Mark 6",
+    "audio": "feb17.mp3"
+  },
+  "0218": {
+    "date": "February 18",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ex. 38:21-39:43",
+    "newTestament": "Mark 7",
+    "audio": "feb18.mp3"
+  },
+  "0219": {
+    "date": "February 19",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Ex. 40:1-Lev. 2:10",
+    "newTestament": "Mark 8",
+    "audio": "feb19.mp3"
+  },
+  "0220": {
+    "date": "February 20",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Lev. 2:11-4:35",
+    "newTestament": "Mark 9",
+    "audio": "feb20.mp3"
+  },
+  "0221": {
+    "date": "February 21",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Lev. 5:1-7:14",
+    "newTestament": "Mark 10",
+    "audio": "feb21.mp3"
+  },
+  "0222": {
+    "date": "February 22",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Lev. 7:15-8:36",
+    "newTestament": "",
+    "audio": "feb22.mp3"
+  },
+  "0223": {
+    "date": "February 23",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 25-27",
+    "newTestament": "Prov. 5:15-23",
+    "audio": "feb23.mp3"
+  },
+  "0224": {
+    "date": "February 24",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Lev. 9:1-11:19",
+    "newTestament": "Mark 11",
+    "audio": "feb24.mp3"
+  },
+  "0225": {
+    "date": "February 25",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Lev. 11:20-13:28",
+    "newTestament": "Mark 12",
+    "audio": "feb25.mp3"
+  },
+  "0226": {
+    "date": "February 26",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Lev. 13:29-14:32",
+    "newTestament": "Mark 13",
+    "audio": "feb26.mp3"
+  },
+  "0227": {
+    "date": "February 27",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Lev. 14:33-15:33",
+    "newTestament": "Mark 14",
+    "audio": "feb27.mp3"
+  },
+  "0228": {
+    "date": "February 28",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Lev. 16:1-18:18",
+    "newTestament": "Mark 15",
+    "audio": "feb28.mp3"
+  },
+  "0301": {
+    "date": "March 1",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Lev. 18:19-20:7",
+    "newTestament": "",
+    "audio": "mar01.mp3"
+  },
+  "0302": {
+    "date": "March 2",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 28-31",
+    "newTestament": "Prov. 6:1-19",
+    "audio": "mar02.mp3"
+  },
+  "0303": {
+    "date": "March 3",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Lev. 20:8-22:25",
+    "newTestament": "Mark 16",
+    "audio": "mar03.mp3"
+  },
+  "0304": {
+    "date": "March 4",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Lev. 22:26-24:9",
+    "newTestament": "Luke 1",
+    "audio": "mar04.mp3"
+  },
+  "0305": {
+    "date": "March 5",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Lev. 24:10-25:46",
+    "newTestament": "Luke 2",
+    "audio": "mar05.mp3"
+  },
+  "0306": {
+    "date": "March 6",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Lev. 25:47-26:46",
+    "newTestament": "Luke 3",
+    "audio": "mar06.mp3"
+  },
+  "0307": {
+    "date": "March 7",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Lev. 27-Num. 1:29",
+    "newTestament": "Luke 4",
+    "audio": "mar07.mp3"
+  },
+  "0308": {
+    "date": "March 8",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Num. 1:30-3:4",
+    "newTestament": "",
+    "audio": "mar08.mp3"
+  },
+  "0309": {
+    "date": "March 9",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 32-34",
+    "newTestament": "Prov. 6:20-7:5",
+    "audio": "mar09.mp3"
+  },
+  "0310": {
+    "date": "March 10",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Num. 3:5-4:16",
+    "newTestament": "Luke 5",
+    "audio": "mar10.mp3"
+  },
+  "0311": {
+    "date": "March 11",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Num. 4:17-5:31",
+    "newTestament": "Luke 6",
+    "audio": "mar11.mp3"
+  },
+  "0312": {
+    "date": "March 12",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Num. 6:1-7:35",
+    "newTestament": "Luke 7",
+    "audio": "mar12.mp3"
+  },
+  "0313": {
+    "date": "March 13",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Num. 7:36-8:4",
+    "newTestament": "Luke 8",
+    "audio": "mar13.mp3"
+  },
+  "0314": {
+    "date": "March 14",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Num. 8:5-10:13",
+    "newTestament": "Luke 9",
+    "audio": "mar14.mp3"
+  },
+  "0315": {
+    "date": "March 15",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Num. 10:14-11:35",
+    "newTestament": "",
+    "audio": "mar15.mp3"
+  },
+  "0316": {
+    "date": "March 16",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 35-36",
+    "newTestament": "Prov. 7:6-23",
+    "audio": "mar16.mp3"
+  },
+  "0317": {
+    "date": "March 17",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Num. 12:1-14:10",
+    "newTestament": "Luke 10",
+    "audio": "mar17.mp3"
+  },
+  "0318": {
+    "date": "March 18",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Num. 14:11-15:31",
+    "newTestament": "Luke 11",
+    "audio": "mar18.mp3"
+  },
+  "0319": {
+    "date": "March 19",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Num. 15:32-16:50",
+    "newTestament": "Luke 12",
+    "audio": "mar19.mp3"
+  },
+  "0320": {
+    "date": "March 20",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Num. 17-19",
+    "newTestament": "Luke 13",
+    "audio": "mar20.mp3"
+  },
+  "0321": {
+    "date": "March 21",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Num. 20-21",
+    "newTestament": "Luke 14",
+    "audio": "mar21.mp3"
+  },
+  "0322": {
+    "date": "March 22",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Num. 22:1-23:26",
+    "newTestament": "",
+    "audio": "mar22.mp3"
+  },
+  "0323": {
+    "date": "March 23",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 37",
+    "newTestament": "Prov. 7:24-8:11",
+    "audio": "mar23.mp3"
+  },
+  "0324": {
+    "date": "March 24",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Num. 23:27-26:34",
+    "newTestament": "Luke 15",
+    "audio": "mar24.mp3"
+  },
+  "0325": {
+    "date": "March 25",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Num. 26:35-28:8",
+    "newTestament": "Luke 16",
+    "audio": "mar25.mp3"
+  },
+  "0326": {
+    "date": "March 26",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Num. 28:9-29:40",
+    "newTestament": "Luke 17",
+    "audio": "mar26.mp3"
+  },
+  "0327": {
+    "date": "March 27",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Num. 30:1-31:47",
+    "newTestament": "Luke 18",
+    "audio": "mar27.mp3"
+  },
+  "0328": {
+    "date": "March 28",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Num. 31:48-33:9",
+    "newTestament": "Luke 19",
+    "audio": "mar28.mp3"
+  },
+  "0329": {
+    "date": "March 29",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Num. 33:10-34:15",
+    "newTestament": "",
+    "audio": "mar29.mp3"
+  },
+  "0330": {
+    "date": "March 30",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 38-41",
+    "newTestament": "Prov. 8:12-36",
+    "audio": "mar30.mp3"
+  },
+  "0331": {
+    "date": "March 31",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Num. 34:16-36:13",
+    "newTestament": "Luke 20",
+    "audio": "mar31.mp3"
+  },
+  "0401": {
+    "date": "April 1",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Deut. 1:1-2:15",
+    "newTestament": "Luke 21",
+    "audio": "apr01.mp3"
+  },
+  "0402": {
+    "date": "April 2",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Deut. 2:16-4:14",
+    "newTestament": "Luke 22",
+    "audio": "apr02.mp3"
+  },
+  "0403": {
+    "date": "April 3",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Deut. 4:15-5:33",
+    "newTestament": "Luke 23",
+    "audio": "apr03.mp3"
+  },
+  "0404": {
+    "date": "April 4",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Deut. 6:1-8:10",
+    "newTestament": "Luke 24",
+    "audio": "apr04.mp3"
+  },
+  "0405": {
+    "date": "April 5",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Deut. 8:11-10:22",
+    "newTestament": "",
+    "audio": "apr05.mp3"
+  },
+  "0406": {
+    "date": "April 6",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 42-44",
+    "newTestament": "Prov. 9",
+    "audio": "apr06.mp3"
+  },
+  "0407": {
+    "date": "April 7",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Deut. 11-12",
+    "newTestament": "John 1",
+    "audio": "apr07.mp3"
+  },
+  "0408": {
+    "date": "April 8",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Deut. 13:1-15:11",
+    "newTestament": "John 2",
+    "audio": "apr08.mp3"
+  },
+  "0409": {
+    "date": "April 9",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Deut. 15:12-18:8",
+    "newTestament": "John 3",
+    "audio": "apr09.mp3"
+  },
+  "0410": {
+    "date": "April 10",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Deut. 18:9-21:9",
+    "newTestament": "John 4",
+    "audio": "apr10.mp3"
+  },
+  "0411": {
+    "date": "April 11",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Deut. 21:10-23:18",
+    "newTestament": "John 5",
+    "audio": "apr11.mp3"
+  },
+  "0412": {
+    "date": "April 12",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Deut. 23:19-26:15",
+    "newTestament": "",
+    "audio": "apr12.mp3"
+  },
+  "0413": {
+    "date": "April 13",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 45-48",
+    "newTestament": "Prov. 10:1-17",
+    "audio": "apr13.mp3"
+  },
+  "0414": {
+    "date": "April 14",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Deut. 26:16-28:32",
+    "newTestament": "John 6",
+    "audio": "apr14.mp3"
+  },
+  "0415": {
+    "date": "April 15",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Deut. 28:33-29:29",
+    "newTestament": "John 7",
+    "audio": "apr15.mp3"
+  },
+  "0416": {
+    "date": "April 16",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Deut. 30:1-32:14",
+    "newTestament": "John 8",
+    "audio": "apr16.mp3"
+  },
+  "0417": {
+    "date": "April 17",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Deut. 32:15-33:29",
+    "newTestament": "John 9",
+    "audio": "apr17.mp3"
+  },
+  "0418": {
+    "date": "April 18",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Deut. 34:1-Josh. 3:8",
+    "newTestament": "John 10",
+    "audio": "apr18.mp3"
+  },
+  "0419": {
+    "date": "April 19",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Josh. 3:9-6:11",
+    "newTestament": "",
+    "audio": "apr19.mp3"
+  },
+  "0420": {
+    "date": "April 20",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 49-50",
+    "newTestament": "Prov. 10:18-32",
+    "audio": "apr20.mp3"
+  },
+  "0421": {
+    "date": "April 21",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Josh. 6:12-8:23",
+    "newTestament": "John 11",
+    "audio": "apr21.mp3"
+  },
+  "0422": {
+    "date": "April 22",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Josh. 8:24-10:27",
+    "newTestament": "John 12",
+    "audio": "apr22.mp3"
+  },
+  "0423": {
+    "date": "April 23",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Josh. 10:28-12:24",
+    "newTestament": "John 13",
+    "audio": "apr23.mp3"
+  },
+  "0424": {
+    "date": "April 24",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Josh. 13:1-15:12",
+    "newTestament": "John 14",
+    "audio": "apr24.mp3"
+  },
+  "0425": {
+    "date": "April 25",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Josh. 15:13-16:10",
+    "newTestament": "John 15",
+    "audio": "apr25.mp3"
+  },
+  "0426": {
+    "date": "April 26",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Josh. 17:1-19:16",
+    "newTestament": "",
+    "audio": "apr26.mp3"
+  },
+  "0427": {
+    "date": "April 27",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 51-55",
+    "newTestament": "Prov. 11:1-23",
+    "audio": "apr27.mp3"
+  },
+  "0428": {
+    "date": "April 28",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Josh. 19:17-21:19",
+    "newTestament": "John 16",
+    "audio": "apr28.mp3"
+  },
+  "0429": {
+    "date": "April 29",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Josh. 21:20-22:34",
+    "newTestament": "John 17",
+    "audio": "apr29.mp3"
+  },
+  "0430": {
+    "date": "April 30",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Josh. 23:1-Jdgs. 1:15",
+    "newTestament": "John 18",
+    "audio": "apr30.mp3"
+  },
+  "0501": {
+    "date": "May 1",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jdgs. 1:16-3:11",
+    "newTestament": "John 19",
+    "audio": "may01.mp3"
+  },
+  "0502": {
+    "date": "May 2",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Jdgs. 3:12-5:23",
+    "newTestament": "John 20",
+    "audio": "may02.mp3"
+  },
+  "0503": {
+    "date": "May 3",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Jdgs. 5:24-7:14",
+    "newTestament": "",
+    "audio": "may03.mp3"
+  },
+  "0504": {
+    "date": "May 4",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 56-59",
+    "newTestament": "Prov. 11:24-12:11",
+    "audio": "may04.mp3"
+  },
+  "0505": {
+    "date": "May 5",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Jdgs. 7:15-9:21",
+    "newTestament": "John 21",
+    "audio": "may05.mp3"
+  },
+  "0506": {
+    "date": "May 6",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jdgs. 9:22-11:11",
+    "newTestament": "Acts 1",
+    "audio": "may06.mp3"
+  },
+  "0507": {
+    "date": "May 7",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Jdgs. 11:12-13:25",
+    "newTestament": "Acts 2",
+    "audio": "may07.mp3"
+  },
+  "0508": {
+    "date": "May 8",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Jdgs. 14:1-16:22",
+    "newTestament": "Acts 3",
+    "audio": "may08.mp3"
+  },
+  "0509": {
+    "date": "May 9",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Jdgs. 16:23-18:31",
+    "newTestament": "Acts 4",
+    "audio": "may09.mp3"
+  },
+  "0510": {
+    "date": "May 10",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Jdgs. 19:1-20:35",
+    "newTestament": "",
+    "audio": "may10.mp3"
+  },
+  "0511": {
+    "date": "May 11",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 60-63",
+    "newTestament": "Prov. 12:12-28",
+    "audio": "may11.mp3"
+  },
+  "0512": {
+    "date": "May 12",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Jdgs. 20:36-Ruth 1",
+    "newTestament": "Acts 5",
+    "audio": "may12.mp3"
+  },
+  "0513": {
+    "date": "May 13",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ruth 2-4",
+    "newTestament": "Acts 6",
+    "audio": "may13.mp3"
+  },
+  "0514": {
+    "date": "May 14",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "1 Sam. 1-2",
+    "newTestament": "Acts 7",
+    "audio": "may14.mp3"
+  },
+  "0515": {
+    "date": "May 15",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Sam. 3:1-6:9",
+    "newTestament": "Acts 8",
+    "audio": "may15.mp3"
+  },
+  "0516": {
+    "date": "May 16",
+    "dayOfWeek": "Friday",
+    "oldTestament": "1 Sam. 6:10-9:10",
+    "newTestament": "Acts 9",
+    "audio": "may16.mp3"
+  },
+  "0517": {
+    "date": "May 17",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "1 Sam. 9:11-11:15",
+    "newTestament": "",
+    "audio": "may17.mp3"
+  },
+  "0518": {
+    "date": "May 18",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 64-67",
+    "newTestament": "Prov. 13",
+    "audio": "may18.mp3"
+  },
+  "0519": {
+    "date": "May 19",
+    "dayOfWeek": "Monday",
+    "oldTestament": "1 Sam. 12:1-14:23",
+    "newTestament": "Acts 10",
+    "audio": "may19.mp3"
+  },
+  "0520": {
+    "date": "May 20",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Sam. 14:24-15:35",
+    "newTestament": "Acts 11",
+    "audio": "may20.mp3"
+  },
+  "0521": {
+    "date": "May 21",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "1 Sam. 16:1-17:37",
+    "newTestament": "Acts 12",
+    "audio": "may21.mp3"
+  },
+  "0522": {
+    "date": "May 22",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Sam. 17:38-19:18",
+    "newTestament": "Acts 13",
+    "audio": "may22.mp3"
+  },
+  "0523": {
+    "date": "May 23",
+    "dayOfWeek": "Friday",
+    "oldTestament": "1 Sam. 19:19-21:15",
+    "newTestament": "Acts 14",
+    "audio": "may23.mp3"
+  },
+  "0524": {
+    "date": "May 24",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "1 Sam. 22:1-24:7",
+    "newTestament": "",
+    "audio": "may24.mp3"
+  },
+  "0525": {
+    "date": "May 25",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 68",
+    "newTestament": "Prov. 14:1-14",
+    "audio": "may25.mp3"
+  },
+  "0526": {
+    "date": "May 26",
+    "dayOfWeek": "Monday",
+    "oldTestament": "1 Sam. 24:8-26:4",
+    "newTestament": "Acts 15",
+    "audio": "may26.mp3"
+  },
+  "0527": {
+    "date": "May 27",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Sam. 26:5-29:11",
+    "newTestament": "Acts 16",
+    "audio": "may27.mp3"
+  },
+  "0528": {
+    "date": "May 28",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "1 Sam. 30:1- 2 Sam. 1:16",
+    "newTestament": "Acts 17",
+    "audio": "may28.mp3"
+  },
+  "0529": {
+    "date": "May 29",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Sam. 1:17-3:21",
+    "newTestament": "Acts 18",
+    "audio": "may29.mp3"
+  },
+  "0530": {
+    "date": "May 30",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "2 Sam. 3:22-6:11",
+    "newTestament": "Acts 19",
+    "audio": "may30.mp3"
+  },
+  "0531": {
+    "date": "May 31",
+    "dayOfWeek": "Friday",
+    "oldTestament": "2 Sam. 6:12-8:18",
+    "newTestament": "",
+    "audio": "may31.mp3"
+  },
+  "0601": {
+    "date": "June 1",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 69-70",
+    "newTestament": "Prov. 14:15-35",
+    "audio": "jun01.mp3"
+  },
+  "0602": {
+    "date": "June 2",
+    "dayOfWeek": "Monday",
+    "oldTestament": "2 Sam. 9-11",
+    "newTestament": "Acts 20",
+    "audio": "jun02.mp3"
+  },
+  "0603": {
+    "date": "June 3",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Sam. 12:1-13:33",
+    "newTestament": "Acts 21",
+    "audio": "jun03.mp3"
+  },
+  "0604": {
+    "date": "June 4",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "2 Sam. 13:34-15:23",
+    "newTestament": "Acts 22",
+    "audio": "jun04.mp3"
+  },
+  "0605": {
+    "date": "June 5",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Sam. 15:24-17:29",
+    "newTestament": "Acts 23",
+    "audio": "jun05.mp3"
+  },
+  "0606": {
+    "date": "June 6",
+    "dayOfWeek": "Friday",
+    "oldTestament": "2 Sam. 18:1-19:30",
+    "newTestament": "Acts 24",
+    "audio": "jun06.mp3"
+  },
+  "0607": {
+    "date": "June 7",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "2 Sam. 19:31-21:22",
+    "newTestament": "",
+    "audio": "jun07.mp3"
+  },
+  "0608": {
+    "date": "June 8",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 71-72",
+    "newTestament": "Prov. 15:1-15",
+    "audio": "jun08.mp3"
+  },
+  "0609": {
+    "date": "June 9",
+    "dayOfWeek": "Monday",
+    "oldTestament": "2 Sam. 22:1-23:7",
+    "newTestament": "Acts 25",
+    "audio": "jun09.mp3"
+  },
+  "0610": {
+    "date": "June 10",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Sam. 23:8-24:25",
+    "newTestament": "Acts 26",
+    "audio": "jun10.mp3"
+  },
+  "0611": {
+    "date": "June 11",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "1 Kgs. 1:1-2:9",
+    "newTestament": "Acts 27",
+    "audio": "jun11.mp3"
+  },
+  "0612": {
+    "date": "June 12",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Kgs. 2:10-3:28",
+    "newTestament": "Acts 28",
+    "audio": "jun12.mp3"
+  },
+  "0613": {
+    "date": "June 13",
+    "dayOfWeek": "Friday",
+    "oldTestament": "1 Kgs. 4:1-6:10",
+    "newTestament": "Rom. 1",
+    "audio": "jun13.mp3"
+  },
+  "0614": {
+    "date": "June 14",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "1 Kgs. 6:11-7:39",
+    "newTestament": "",
+    "audio": "jun14.mp3"
+  },
+  "0615": {
+    "date": "June 15",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 73-74",
+    "newTestament": "Prov. 15:16-33",
+    "audio": "jun15.mp3"
+  },
+  "0616": {
+    "date": "June 16",
+    "dayOfWeek": "Monday",
+    "oldTestament": "1 Kgs. 7:40-8:53",
+    "newTestament": "Rom. 2",
+    "audio": "jun16.mp3"
+  },
+  "0617": {
+    "date": "June 17",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Kgs. 8:54-10:23",
+    "newTestament": "Rom. 3",
+    "audio": "jun17.mp3"
+  },
+  "0618": {
+    "date": "June 18",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "1 Kgs. 10:24-12:15",
+    "newTestament": "Rom. 4",
+    "audio": "jun18.mp3"
+  },
+  "0619": {
+    "date": "June 19",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Kgs. 12:16-13:34",
+    "newTestament": "Rom. 5",
+    "audio": "jun19.mp3"
+  },
+  "0620": {
+    "date": "June 20",
+    "dayOfWeek": "Friday",
+    "oldTestament": "1 Kgs. 14-15",
+    "newTestament": "Rom. 6",
+    "audio": "jun20.mp3"
+  },
+  "0621": {
+    "date": "June 21",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "1 Kgs. 16:1-18:6",
+    "newTestament": "",
+    "audio": "jun21.mp3"
+  },
+  "0622": {
+    "date": "June 22",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 75-77",
+    "newTestament": "Prov. 16:1-17",
+    "audio": "jun22.mp3"
+  },
+  "0623": {
+    "date": "June 23",
+    "dayOfWeek": "Monday",
+    "oldTestament": "1 Kgs. 18:7-19:21",
+    "newTestament": "Rom. 7",
+    "audio": "jun23.mp3"
+  },
+  "0624": {
+    "date": "June 24",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Kgs. 20:1-21:16",
+    "newTestament": "Rom. 8",
+    "audio": "jun24.mp3"
+  },
+  "0625": {
+    "date": "June 25",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "1 Kgs. 21:17-22:53",
+    "newTestament": "Rom. 9",
+    "audio": "jun25.mp3"
+  },
+  "0626": {
+    "date": "June 26",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Kgs. 1-3",
+    "newTestament": "Rom. 10",
+    "audio": "jun26.mp3"
+  },
+  "0627": {
+    "date": "June 27",
+    "dayOfWeek": "Friday",
+    "oldTestament": "2 Kgs. 4:1-5:19",
+    "newTestament": "Rom. 11",
+    "audio": "jun27.mp3"
+  },
+  "0628": {
+    "date": "June 28",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "2 Kgs. 5:20-7:20",
+    "newTestament": "",
+    "audio": "jun28.mp3"
+  },
+  "0629": {
+    "date": "June 29",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 78",
+    "newTestament": "Prov. 16:18-33",
+    "audio": "jun29.mp3"
+  },
+  "0630": {
+    "date": "June 30",
+    "dayOfWeek": "Monday",
+    "oldTestament": "2 Kgs. 8-9",
+    "newTestament": "Rom. 12",
+    "audio": "jun30.mp3"
+  },
+  "0701": {
+    "date": "July 1",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Kgs. 10:1-12:8",
+    "newTestament": "Rom. 13",
+    "audio": "jul01.mp3"
+  },
+  "0702": {
+    "date": "July 2",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "2 Kgs. 12:9-14:22",
+    "newTestament": "Rom. 14",
+    "audio": "jul02.mp3"
+  },
+  "0703": {
+    "date": "July 3",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Kgs. 14:23-16:20",
+    "newTestament": "Rom. 15",
+    "audio": "jul03.mp3"
+  },
+  "0704": {
+    "date": "July 4",
+    "dayOfWeek": "Friday",
+    "oldTestament": "2 Kgs. 17:1-18:16",
+    "newTestament": "Rom. 16",
+    "audio": "jul04.mp3"
+  },
+  "0705": {
+    "date": "July 5",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "2 Kgs. 18:17-20:11",
+    "newTestament": "",
+    "audio": "jul05.mp3"
+  },
+  "0706": {
+    "date": "July 6",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 79-81",
+    "newTestament": "Prov. 17:1-18",
+    "audio": "jul06.mp3"
+  },
+  "0707": {
+    "date": "July 7",
+    "dayOfWeek": "Monday",
+    "oldTestament": "2 Kgs. 20:12-22:20",
+    "newTestament": "1 Cor. 1",
+    "audio": "jul07.mp3"
+  },
+  "0708": {
+    "date": "July 8",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Kgs. 23-24",
+    "newTestament": "1 Cor. 2",
+    "audio": "jul08.mp3"
+  },
+  "0709": {
+    "date": "July 9",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "2 Kgs. 25-1 Chr. 1:33",
+    "newTestament": "1 Cor. 3",
+    "audio": "jul09.mp3"
+  },
+  "0710": {
+    "date": "July 10",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Chr. 1:34-2:41",
+    "newTestament": "1 Cor. 4",
+    "audio": "jul10.mp3"
+  },
+  "0711": {
+    "date": "July 11",
+    "dayOfWeek": "Friday",
+    "oldTestament": "1 Chr. 2:42-4:23",
+    "newTestament": "1 Cor. 5",
+    "audio": "jul11.mp3"
+  },
+  "0712": {
+    "date": "July 12",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "1 Chr. 4:24-6:30",
+    "newTestament": "",
+    "audio": "jul12.mp3"
+  },
+  "0713": {
+    "date": "July 13",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 82-85",
+    "newTestament": "Prov. 17:19-18:9",
+    "audio": "jul13.mp3"
+  },
+  "0714": {
+    "date": "July 14",
+    "dayOfWeek": "Monday",
+    "oldTestament": "1 Chr. 6:31-7:12",
+    "newTestament": "1 Cor. 6",
+    "audio": "jul14.mp3"
+  },
+  "0715": {
+    "date": "July 15",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Chr. 7:13-8:40",
+    "newTestament": "1 Cor. 7",
+    "audio": "jul15.mp3"
+  },
+  "0716": {
+    "date": "July 16",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "1 Chr. 9:1-11:3",
+    "newTestament": "1 Cor. 8",
+    "audio": "jul16.mp3"
+  },
+  "0717": {
+    "date": "July 17",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Chr. 11:4-12:22",
+    "newTestament": "1 Cor. 9",
+    "audio": "jul17.mp3"
+  },
+  "0718": {
+    "date": "July 18",
+    "dayOfWeek": "Friday",
+    "oldTestament": "1 Chr. 12:23-15:15",
+    "newTestament": "1 Cor. 10",
+    "audio": "jul18.mp3"
+  },
+  "0719": {
+    "date": "July 19",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "1 Chr. 15:16-16:43",
+    "newTestament": "",
+    "audio": "jul19.mp3"
+  },
+  "0720": {
+    "date": "July 20",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 86-88",
+    "newTestament": "Prov. 18:10-24",
+    "audio": "jul20.mp3"
+  },
+  "0721": {
+    "date": "July 21",
+    "dayOfWeek": "Monday",
+    "oldTestament": "1 Chr. 17-19",
+    "newTestament": "1 Cor. 11",
+    "audio": "jul21.mp3"
+  },
+  "0722": {
+    "date": "July 22",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Chr. 20-22",
+    "newTestament": "1 Cor. 12",
+    "audio": "jul22.mp3"
+  },
+  "0723": {
+    "date": "July 23",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "1 Chr. 23-24",
+    "newTestament": "1 Cor. 13",
+    "audio": "jul23.mp3"
+  },
+  "0724": {
+    "date": "July 24",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "1 Chr. 25-26",
+    "newTestament": "1 Cor. 14",
+    "audio": "jul24.mp3"
+  },
+  "0725": {
+    "date": "July 25",
+    "dayOfWeek": "Friday",
+    "oldTestament": "1 Chr. 27:1-29:9",
+    "newTestament": "1 Cor. 15",
+    "audio": "jul25.mp3"
+  },
+  "0726": {
+    "date": "July 26",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "1 Chr. 29:10- 2 Chr. 2:18",
+    "newTestament": "",
+    "audio": "jul26.mp3"
+  },
+  "0727": {
+    "date": "July 27",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 89",
+    "newTestament": "Prov. 19:1-17",
+    "audio": "jul27.mp3"
+  },
+  "0728": {
+    "date": "July 28",
+    "dayOfWeek": "Monday",
+    "oldTestament": "2 Chr. 3:1-6:11",
+    "newTestament": "1 Cor. 16",
+    "audio": "jul28.mp3"
+  },
+  "0729": {
+    "date": "July 29",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Chr. 6:12-8:10",
+    "newTestament": "2 Cor. 1",
+    "audio": "jul29.mp3"
+  },
+  "0730": {
+    "date": "July 30",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "2 Chr. 8:11-11:4",
+    "newTestament": "2 Cor. 2",
+    "audio": "jul30.mp3"
+  },
+  "0731": {
+    "date": "July 31",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Chr. 11:5-14:8",
+    "newTestament": "2 Cor. 3",
+    "audio": "jul31.mp3"
+  },
+  "0801": {
+    "date": "August 1",
+    "dayOfWeek": "Friday",
+    "oldTestament": "2 Chr. 14:9-17:19",
+    "newTestament": "2 Cor. 4",
+    "audio": "aug01.mp3"
+  },
+  "0802": {
+    "date": "August 2",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "2 Chr. 18:1-20:19",
+    "newTestament": "",
+    "audio": "aug02.mp3"
+  },
+  "0803": {
+    "date": "August 3",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 90-92",
+    "newTestament": "Prov. 19:18-29",
+    "audio": "aug03.mp3"
+  },
+  "0804": {
+    "date": "August 4",
+    "dayOfWeek": "Monday",
+    "oldTestament": "2 Chr. 20:20-23:11",
+    "newTestament": "2 Cor. 5",
+    "audio": "aug04.mp3"
+  },
+  "0805": {
+    "date": "August 5",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Chr. 23:12-25:28",
+    "newTestament": "2 Cor. 6",
+    "audio": "aug05.mp3"
+  },
+  "0806": {
+    "date": "August 6",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "2 Chr. 26-28",
+    "newTestament": "2 Cor. 7",
+    "audio": "aug06.mp3"
+  },
+  "0807": {
+    "date": "August 7",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "2 Chr. 29-30",
+    "newTestament": "2 Cor. 8",
+    "audio": "aug07.mp3"
+  },
+  "0808": {
+    "date": "August 8",
+    "dayOfWeek": "Friday",
+    "oldTestament": "2 Chr. 31:1-33:9",
+    "newTestament": "2 Cor. 9",
+    "audio": "aug08.mp3"
+  },
+  "0809": {
+    "date": "August 9",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "2 Chr. 33:10-35:9",
+    "newTestament": "",
+    "audio": "aug09.mp3"
+  },
+  "0810": {
+    "date": "August 10",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 93-96",
+    "newTestament": "Prov. 20:1-15",
+    "audio": "aug10.mp3"
+  },
+  "0811": {
+    "date": "August 11",
+    "dayOfWeek": "Monday",
+    "oldTestament": "2 Chr. 35:10-Ez. 1:11",
+    "newTestament": "2 Cor. 10",
+    "audio": "aug11.mp3"
+  },
+  "0812": {
+    "date": "August 12",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezra 2",
+    "newTestament": "2 Cor. 11",
+    "audio": "aug12.mp3"
+  },
+  "0813": {
+    "date": "August 13",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Ezra 3:1-6:12",
+    "newTestament": "2 Cor. 12",
+    "audio": "aug13.mp3"
+  },
+  "0814": {
+    "date": "August 14",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Ezra 6:13-8:23",
+    "newTestament": "2 Cor. 13",
+    "audio": "aug14.mp3"
+  },
+  "0815": {
+    "date": "August 15",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Ezra 8:24-10:44",
+    "newTestament": "Gal. 1",
+    "audio": "aug15.mp3"
+  },
+  "0816": {
+    "date": "August 16",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Neh. 1-3",
+    "newTestament": "",
+    "audio": "aug16.mp3"
+  },
+  "0817": {
+    "date": "August 17",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 97-101",
+    "newTestament": "Prov. 20:16-30",
+    "audio": "aug17.mp3"
+  },
+  "0818": {
+    "date": "August 18",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Neh. 4-6",
+    "newTestament": "Gal. 2",
+    "audio": "aug18.mp3"
+  },
+  "0819": {
+    "date": "August 19",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Neh. 7:1-65",
+    "newTestament": "Gal. 3",
+    "audio": "aug19.mp3"
+  },
+  "0820": {
+    "date": "August 20",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Neh. 7:66-9:38",
+    "newTestament": "Gal. 4",
+    "audio": "aug20.mp3"
+  },
+  "0821": {
+    "date": "August 21",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Neh. 10:1-11:24",
+    "newTestament": "Gal. 5",
+    "audio": "aug21.mp3"
+  },
+  "0822": {
+    "date": "August 22",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Neh. 11:25-12:47",
+    "newTestament": "Gal. 6",
+    "audio": "aug22.mp3"
+  },
+  "0823": {
+    "date": "August 23",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Neh. 13-Est. 2:18",
+    "newTestament": "",
+    "audio": "aug23.mp3"
+  },
+  "0824": {
+    "date": "August 24",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 102-103",
+    "newTestament": "Prov. 21:1-15",
+    "audio": "aug24.mp3"
+  },
+  "0825": {
+    "date": "August 25",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Est. 2:19-6:14",
+    "newTestament": "Eph. 1",
+    "audio": "aug25.mp3"
+  },
+  "0826": {
+    "date": "August 26",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Est. 7-10",
+    "newTestament": "Eph. 2",
+    "audio": "aug26.mp3"
+  },
+  "0827": {
+    "date": "August 27",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Job 1-3",
+    "newTestament": "Eph. 3",
+    "audio": "aug27.mp3"
+  },
+  "0828": {
+    "date": "August 28",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Job 4:1-6:13",
+    "newTestament": "Eph. 4",
+    "audio": "aug28.mp3"
+  },
+  "0829": {
+    "date": "August 29",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Job 6:14-8:22",
+    "newTestament": "Eph. 5",
+    "audio": "aug29.mp3"
+  },
+  "0830": {
+    "date": "August 30",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Job 9-10",
+    "newTestament": "",
+    "audio": "aug30.mp3"
+  },
+  "0831": {
+    "date": "August 31",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 104",
+    "newTestament": "Prov. 21:16-31",
+    "audio": "aug31.mp3"
+  },
+  "0901": {
+    "date": "September 1",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Job 11:1-13:19",
+    "newTestament": "Eph. 6",
+    "audio": "sep01.mp3"
+  },
+  "0902": {
+    "date": "September 2",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Job 13:20-15:35",
+    "newTestament": "Phil. 1",
+    "audio": "sep02.mp3"
+  },
+  "0903": {
+    "date": "September 3",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Job 16-18",
+    "newTestament": "Phil. 2",
+    "audio": "sep03.mp3"
+  },
+  "0904": {
+    "date": "September 4",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Job 19-20",
+    "newTestament": "Phil. 3",
+    "audio": "sep04.mp3"
+  },
+  "0905": {
+    "date": "September 5",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Job 21-22",
+    "newTestament": "Phil. 4",
+    "audio": "sep05.mp3"
+  },
+  "0906": {
+    "date": "September 6",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Job 23-26",
+    "newTestament": "",
+    "audio": "sep06.mp3"
+  },
+  "0907": {
+    "date": "September 7",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 105",
+    "newTestament": "Prov. 22:1-16",
+    "audio": "sep07.mp3"
+  },
+  "0908": {
+    "date": "September 8",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Job 27:1-29:6",
+    "newTestament": "Col. 1",
+    "audio": "sep08.mp3"
+  },
+  "0909": {
+    "date": "September 9",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Job 29:7-31:15",
+    "newTestament": "Col. 2",
+    "audio": "sep09.mp3"
+  },
+  "0910": {
+    "date": "September 10",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Job 31:16-33:18",
+    "newTestament": "Col. 3",
+    "audio": "sep10.mp3"
+  },
+  "0911": {
+    "date": "September 11",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Job 33:19-35:16",
+    "newTestament": "Col. 4",
+    "audio": "sep11.mp3"
+  },
+  "0912": {
+    "date": "September 12",
+    "dayOfWeek": "Friday",
+    "oldTestament": "Job 36:1-38:11",
+    "newTestament": "1 Thess. 1",
+    "audio": "sep12.mp3"
+  },
+  "0913": {
+    "date": "September 13",
+    "dayOfWeek": "Saturday",
+    "oldTestament": "Job 38:12-39:30",
+    "newTestament": "",
+    "audio": "sep13.mp3"
+  },
+  "0914": {
+    "date": "September 14",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 106",
+    "newTestament": "Prov. 22:17-29",
+    "audio": "sep14.mp3"
+  },
+  "0915": {
+    "date": "September 15",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Job 40-42",
+    "newTestament": "1 Thess. 2",
+    "audio": "sep15.mp3"
+  },
+  "0916": {
+    "date": "September 16",
+    "dayOfWeek": "Tuesday",
+    "oldTestament": "Eccl. 1-3",
+    "newTestament": "1 Thess. 3",
+    "audio": "sep16.mp3"
+  },
+  "0917": {
+    "date": "September 17",
+    "dayOfWeek": "Wednesday",
+    "oldTestament": "Eccl. 4:1-7:12",
+    "newTestament": "1 Thess. 4",
+    "audio": "sep17.mp3"
+  }
+}

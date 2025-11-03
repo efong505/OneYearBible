@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parse Reading Schedule</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Parse Reading Schedule</h1>
+        <p>Paste the schedule text from your PDF:</p>
+        
+        <textarea id="scheduleText" class="form-control" rows="15" placeholder="Feb 1 S Ex. 10:1-12:28
+Feb 2 S Ps. 18; Prov. 3:19-35
+Feb 3 M Ex. 12:29-14:14; Matt. 24"></textarea>
+        
+        <button onclick="parseSchedule()" class="btn btn-primary mt-3">Parse Schedule</button>
+        <button onclick="downloadJSON()" class="btn btn-success mt-3">Download JSON</button>
+        
+        <div id="output" class="mt-4"></div>
+    </div>
+
+    <script>
+        let parsedReadings = {};
+
+        function parseSchedule() {
+            const text = document.getElementById('scheduleText').value;
+            const lines = text.split('\n').filter(line => line.trim());
+            
+            parsedReadings = {};
+            
+            lines.forEach(line => {
+                const match = line.match(/^(\w+)\s+(\d+)\s+([SMTWFR]|SA)\s+(.+)$/);
+                if (match) {
+                    const [, month, day, dayLetter, reading] = match;
+                    const monthNum = getMonthNumber(month);
+                    const dayNum = day.padStart(2, '0');
+                    const dateCode = monthNum + dayNum;
+                    const dayName = getDayName(dayLetter);
+                    
+                    // Split reading into OT and NT
+                    const parts = reading.split(';');
+                    let oldTestament = '';
+                    let newTestament = '';
+                    
+                    if (parts.length === 1) {
+                        // Single reading - determine if OT or NT
+                        if (parts[0].includes('Matt.') || parts[0].includes('Mark') || 
+                            parts[0].includes('Luke') || parts[0].includes('John') ||
+                            parts[0].includes('Acts') || parts[0].includes('Rom.') ||
+                            parts[0].includes('Cor.') || parts[0].includes('Gal.') ||
+                            parts[0].includes('Eph.') || parts[0].includes('Phil.') ||
+                            parts[0].includes('Col.') || parts[0].includes('Thess.') ||
+                            parts[0].includes('Tim.') || parts[0].includes('Titus') ||
+                            parts[0].includes('Philem.') || parts[0].includes('Heb.') ||
+                            parts[0].includes('James') || parts[0].includes('Pet.') ||
+                            parts[0].includes('John') || parts[0].includes('Jude') ||
+                            parts[0].includes('Rev.')) {
+                            newTestament = parts[0].trim();
+                        } else {
+                            oldTestament = parts[0].trim();
+                        }
+                    } else {
+                        oldTestament = parts[0].trim();
+                        newTestament = parts[1].trim();
+                    }
+                    
+                    parsedReadings[dateCode] = {
+                        date: `${getMonthName(month)} ${parseInt(day)}`,
+                        dayOfWeek: dayName,
+                        oldTestament: oldTestament,
+                        newTestament: newTestament,
+                        audio: `${month.toLowerCase()}${dayNum}.mp3`
+                    };
+                }
+            });
+            
+            displayResults();
+        }
+
+        function getMonthNumber(month) {
+            const months = {
+                'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
+                'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
+                'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+            };
+            return months[month] || '01';
+        }
+
+        function getMonthName(month) {
+            const months = {
+                'Jan': 'January', 'Feb': 'February', 'Mar': 'March', 'Apr': 'April',
+                'May': 'May', 'Jun': 'June', 'Jul': 'July', 'Aug': 'August',
+                'Sep': 'September', 'Oct': 'October', 'Nov': 'November', 'Dec': 'December'
+            };
+            return months[month] || month;
+        }
+
+        function getDayName(dayLetter) {
+            const days = {
+                'S': 'Sunday', 'M': 'Monday', 'T': 'Tuesday', 
+                'W': 'Wednesday', 'R': 'Thursday', 'F': 'Friday', 'SA': 'Saturday'
+            };
+            return days[dayLetter] || dayLetter;
+        }
+
+        function displayResults() {
+            const output = document.getElementById('output');
+            const count = Object.keys(parsedReadings).length;
+            
+            let html = `<h4>Parsed ${count} Readings:</h4>
+                       <div class="table-responsive">
+                       <table class="table table-sm">
+                       <thead><tr><th>Code</th><th>Date</th><th>Day</th><th>Old Testament</th><th>New Testament</th></tr></thead>
+                       <tbody>`;
+            
+            Object.entries(parsedReadings).forEach(([code, reading]) => {
+                html += `<tr>
+                    <td>${code}</td>
+                    <td>${reading.date}</td>
+                    <td>${reading.dayOfWeek}</td>
+                    <td>${reading.oldTestament}</td>
+                    <td>${reading.newTestament}</td>
+                </tr>`;
+            });
+            
+            html += '</tbody></table></div>';
+            output.innerHTML = html;
+        }
+
+        function downloadJSON() {
+            if (Object.keys(parsedReadings).length === 0) {
+                alert('No readings to download');
+                return;
+            }
+            
+            const blob = new Blob([JSON.stringify(parsedReadings, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'parsed-readings.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

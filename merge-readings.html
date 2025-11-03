@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Reading Plans</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Merge Reading Plans</h1>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Upload Existing Plan</h4>
+                <input type="file" id="existingPlan" class="form-control" accept=".json">
+                <small class="text-muted">Upload your current reading-plan.json</small>
+            </div>
+            <div class="col-md-6">
+                <h4>Upload New Readings</h4>
+                <input type="file" id="newReadings" class="form-control" accept=".json">
+                <small class="text-muted">Upload parsed readings from parser tool</small>
+            </div>
+        </div>
+        
+        <button onclick="mergeFiles()" class="btn btn-primary mt-3">Merge Plans</button>
+        <button onclick="downloadMerged()" class="btn btn-success mt-3">Download Merged Plan</button>
+        
+        <div id="output" class="mt-4"></div>
+    </div>
+
+    <script>
+        let mergedPlan = {};
+
+        async function mergeFiles() {
+            const existingFile = document.getElementById('existingPlan').files[0];
+            const newFile = document.getElementById('newReadings').files[0];
+            
+            if (!existingFile || !newFile) {
+                alert('Please select both files');
+                return;
+            }
+            
+            try {
+                const existingText = await existingFile.text();
+                const newText = await newFile.text();
+                
+                const existingPlan = JSON.parse(existingText);
+                const newReadings = JSON.parse(newText);
+                
+                mergedPlan = {...existingPlan, ...newReadings};
+                
+                const output = document.getElementById('output');
+                output.innerHTML = `
+                    <div class="alert alert-success">
+                        <h5>Merge Complete!</h5>
+                        <p>Existing entries: ${Object.keys(existingPlan).length}</p>
+                        <p>New entries: ${Object.keys(newReadings).length}</p>
+                        <p>Total entries: ${Object.keys(mergedPlan).length}</p>
+                    </div>
+                `;
+                
+            } catch (error) {
+                document.getElementById('output').innerHTML = 
+                    `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        }
+
+        function downloadMerged() {
+            if (Object.keys(mergedPlan).length === 0) {
+                alert('No merged plan to download');
+                return;
+            }
+            
+            const blob = new Blob([JSON.stringify(mergedPlan, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'reading-plan-merged.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

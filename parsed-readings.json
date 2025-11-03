@@ -1,0 +1,23 @@
+{
+  "0201": {
+    "date": "February 1",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ex. 10:1-12:28",
+    "newTestament": "",
+    "audio": "feb01.mp3"
+  },
+  "0202": {
+    "date": "February 2",
+    "dayOfWeek": "Sunday",
+    "oldTestament": "Ps. 18",
+    "newTestament": "Prov.3:19-35",
+    "audio": "feb02.mp3"
+  },
+  "0203": {
+    "date": "February 3",
+    "dayOfWeek": "Monday",
+    "oldTestament": "Ex 12:29-14:14",
+    "newTestament": "Matt. 24",
+    "audio": "feb03.mp3"
+  }
+}

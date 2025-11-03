@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bible File Debugger</title>
+</head>
+<body>
+    <h1>Bible File Structure Debugger</h1>
+    <p>Upload ONE file to see its exact structure:</p>
+    
+    <input type="file" id="debugFile" accept=".json">
+    <div id="debugOutput" style="white-space: pre-wrap; font-family: monospace; background: #f0f0f0; padding: 10px; margin: 10px 0;"></div>
+    
+    <script>
+        document.getElementById('debugFile').addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            try {
+                const text = await readFileAsText(file);
+                const data = JSON.parse(text);
+                
+                let output = `FILE: ${file.name}\n`;
+                output += `SIZE: ${file.size} bytes\n`;
+                output += `TYPE: ${typeof data}\n`;
+                output += `IS ARRAY: ${Array.isArray(data)}\n`;
+                
+                if (Array.isArray(data)) {
+                    output += `ARRAY LENGTH: ${data.length}\n`;
+                    output += `FIRST ITEM KEYS: ${Object.keys(data[0] || {}).join(', ')}\n`;
+                    output += `FIRST ITEM: ${JSON.stringify(data[0], null, 2)}\n`;
+                } else if (typeof data === 'object') {
+                    output += `OBJECT KEYS: ${Object.keys(data).join(', ')}\n`;
+                    output += `FULL STRUCTURE:\n${JSON.stringify(data, null, 2)}\n`;
+                }
+                
+                document.getElementById('debugOutput').textContent = output;
+                
+            } catch (error) {
+                document.getElementById('debugOutput').textContent = `ERROR: ${error.message}`;
+            }
+        });
+        
+        function readFileAsText(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = e => resolve(e.target.result);
+                reader.onerror = reject;
+                reader.readAsText(file);
+            });
+        }
+    </script>
+</body>
+</html>

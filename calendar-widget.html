@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Widget</title>
+    <link rel="stylesheet" href="widget-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+    <div class="calendar-widget">
+        <div class="widget-header">
+            <span class="widget-current-date"></span>
+            <div class="widget-navigation">
+                <span id="widget-prev" class="material-symbols-rounded">chevron_left</span>
+                <span id="widget-next" class="material-symbols-rounded">chevron_right</span>
+            </div>
+        </div>
+        <div class="widget-body">
+            <ul class="widget-weekdays">
+                <li>S</li><li>M</li><li>T</li><li>W</li><li>T</li><li>F</li><li>S</li>
+            </ul>
+            <ul class="widget-dates"></ul>
+        </div>
+    </div>
+    <script src="widget-script.js"></script>
+</body>
+</html>

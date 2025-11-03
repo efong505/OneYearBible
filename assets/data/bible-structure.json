@@ -1,0 +1,70 @@
+{
+  "readingPlan": {
+    "0918": {
+      "date": "September 18",
+      "dayOfWeek": "Thursday",
+      "oldTestament": {
+        "title": "Ecclesiastes 7:13 - 10:7",
+        "passages": [
+          {
+            "book": "Ecclesiastes",
+            "startChapter": 7,
+            "startVerse": 13,
+            "endChapter": 10,
+            "endVerse": 7
+          }
+        ]
+      },
+      "newTestament": {
+        "title": "1 Thessalonians 5",
+        "passages": [
+          {
+            "book": "1 Thessalonians",
+            "chapter": 5
+          }
+        ]
+      },
+      "audio": "sept18.mp3"
+    },
+    "0924": {
+      "date": "September 24",
+      "dayOfWeek": "Tuesday",
+      "oldTestament": {
+        "title": "Isaiah 5:8 - 8:22",
+        "passages": [
+          {
+            "book": "Isaiah",
+            "startChapter": 5,
+            "startVerse": 8,
+            "endChapter": 8,
+            "endVerse": 22
+          }
+        ]
+      },
+      "newTestament": {
+        "title": "1 Timothy 1",
+        "passages": [
+          {
+            "book": "1 Timothy",
+            "chapter": 1
+          }
+        ]
+      },
+      "audio": "sept24.mp3"
+    }
+  },
+  "bible": {
+    "Genesis": {
+      "1": {
+        "1": "In the beginning God created the heaven and the earth.",
+        "2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
+      }
+    },
+    "Ecclesiastes": {
+      "7": {
+        "13": "Consider the work of God: for who can make that straight, which he hath made crooked?",
+        "14": "In the day of prosperity be joyful, but in the day of adversity consider: God also hath set the one over against the other, to the end that man should find nothing after him."
+      }
+    }
+  }
+}

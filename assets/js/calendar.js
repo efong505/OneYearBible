@@ -12,8 +12,17 @@ if (window.location.pathname.includes('/readings/')) {
   }
 }
 
-let widgetYear = 2025; // Set to 2025 for the Bible reading plan
+let widgetYear = new Date().getFullYear(); // Use current year
 let widgetMonth = currentPageDate ? currentPageDate.month : new Date().getMonth();
+
+// If on a reading page, get year from URL parameter
+if (window.location.pathname.includes('/readings/')) {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('year')) {
+    widgetYear = parseInt(urlParams.get('year'));
+    console.log('Using year from URL:', widgetYear);
+  }
+}
 
 const widgetDates = document.querySelector(".widget-dates");
 const widgetCurrentDate = document.querySelector(".widget-current-date");
@@ -43,6 +52,7 @@ fetch(`${basePath}reading-plan.json`)
   });
 
 const renderWidget = () => {
+  console.log('Rendering widget with year:', widgetYear, 'month:', widgetMonth);
   let firstDay = new Date(widgetYear, widgetMonth, 1).getDay();
   let lastDate = new Date(widgetYear, widgetMonth + 1, 0).getDate();
   let lastDay = new Date(widgetYear, widgetMonth, lastDate).getDay();
@@ -93,9 +103,9 @@ function navigateToReading(year, month, day) {
   // Check if reading exists
   if (availableReadings.includes(dateCode)) {
     if (window.location.pathname.includes('/readings/')) {
-      window.location.href = `../../readings/${monthNames[month]}/${dateCode}.html`;
+      window.location.href = `../../readings/${monthNames[month]}/${dateCode}.html?year=${year}`;
     } else {
-      window.location.href = `readings/${monthNames[month]}/${dateCode}.html`;
+      window.location.href = `readings/${monthNames[month]}/${dateCode}.html?year=${year}`;
     }
   } else {
     // Go to coming soon page
@@ -116,20 +126,57 @@ function goToToday() {
 
 widgetNavIcons.forEach(icon => {
   icon.addEventListener("click", () => {
+    console.log('Navigation clicked:', icon.id, 'Current year:', widgetYear, 'month:', widgetMonth);
     widgetMonth = icon.id === "widget-prev" ? widgetMonth - 1 : widgetMonth + 1;
 
     if (widgetMonth < 0) {
       widgetMonth = 11;
       widgetYear--;
+      console.log('Year decreased to:', widgetYear);
     } else if (widgetMonth > 11) {
       widgetMonth = 0;
       widgetYear++;
+      console.log('Year increased to:', widgetYear);
     }
 
     renderWidget();
   });
 });
 
+// Update dynamic date and year on reading pages
+function updateDynamicDates() {
+  if (currentPageDate) {
+    // Get year from URL parameter or use current year
+    const urlParams = new URLSearchParams(window.location.search);
+    const displayYear = urlParams.get('year') ? parseInt(urlParams.get('year')) : new Date().getFullYear();
+    
+    const date = new Date(displayYear, currentPageDate.month, currentPageDate.day);
+    const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    
+    const dayName = dayNames[date.getDay()];
+    const monthName = monthNames[currentPageDate.month];
+    const day = currentPageDate.day;
+    
+    // Update the h2 title
+    const h2Element = document.querySelector('h2');
+    if (h2Element && h2Element.textContent.includes('--')) {
+      h2Element.textContent = `${monthName} ${day}--${dayName}`;
+    }
+    
+    // Update the card header
+    const cardHeader = document.querySelector('.card-header');
+    if (cardHeader) {
+      cardHeader.textContent = `${monthName} ${day}, ${displayYear}`;
+    }
+  }
+}
+
 if (todayBtn) {
   todayBtn.addEventListener('click', goToToday);
+}
+
+// Update dates when page loads
+if (currentPageDate) {
+  updateDynamicDates();
 }

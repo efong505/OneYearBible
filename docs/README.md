@@ -12,6 +12,7 @@ widget-script.js (line 77 and line 171)
 That's it! The scripts automatically handle all month names and navigation.
 
 # File Structure
+
 OneYearBible/
 ├── index.html (main intro page)
 ├── calendar.html (current calendar)

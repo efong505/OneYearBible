@@ -1,0 +1,19 @@
+# Python virtual environment
+env/
+
+# Generated audio files (large, regenerable from scripts)
+audio-replacement/intro-outro-audio/
+audio-replacement/temp-audio/
+audio-replacement/processed-audio/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
